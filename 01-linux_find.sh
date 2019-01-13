@@ -7,4 +7,7 @@
 ls -lR|grep "^-" |wc -l
 #2)查询opencv安装路径，其实就是查找文件名
 sudo find / -iname "*opencv*"
-
+#解压xx.tar.gz
+tar -zxvf xx.tar.gz
+#解压xx.tar.bz2
+tar -jxvf xx.tar.bz2
